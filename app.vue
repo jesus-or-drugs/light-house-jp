@@ -2,11 +2,6 @@
   <NuxtLoadingIndicator :color="false" class="z-100 bg-primary/80" />
   <LayoutBanner v-if="config.banner.enable" />
   <LayoutHeader />
-  <div>
-    <aside>
-      <LayoutAside :is-mobile="false" />
-    </aside>
-  </div>
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>

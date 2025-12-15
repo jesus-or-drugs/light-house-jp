@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Geist'],
-        mono: ['Geist Mono'],
+        sans: ['ヒラギノ角ゴシック　Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', '游ゴシック体', 'Yu Gothic', 'YuGothic', 'sans-serif'],
+        mono: ['Source Han Code JP', '源ノ角ゴシック Code JP', 'Source Han Code', '源ノ角ゴシック Code', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
       },
       colors: {
         border: 'hsl(var(--border))',

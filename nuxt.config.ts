@@ -3,12 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'ja',
     locales: [
       {
-        code: 'en',
-        name: 'English',
-        language: 'en-US',
+        code: 'ja',
+        name: 'Japanese',
+        language: 'ja-JP',
       },
     ],
   },

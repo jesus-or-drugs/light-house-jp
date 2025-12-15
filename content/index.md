@@ -3,29 +3,16 @@ title: Home
 navigation: false
 ---
 
-::hero
----
-announcement:
-  title: 'Release v1'
-  icon: '🎉'
-  to: https://shadcn-docs-nuxt.vercel.app/blog/v1
-  target: _blank
-actions:
-  - name: Documentation
-    to: https://shadcn-docs-nuxt.vercel.app/getting-started/introduction
-  - name: GitHub
-    variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
-    leftIcon: 'lucide:github'
----
+::super-hero
 
 #title
-Welcome to shadcn-docs-nuxt
+向精神薬データベース開発中
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+この日本で薬物依存症より苦しむ人を0にする
 ::
 
-::div{class="border rounded-lg shadow-md"}
-  :iframe{src="https://shadcn-docs-nuxt.vercel.app/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0"}
+::body-two-columns
+## 最新情報
+当サイトは現在開発中です。最新情報については[X(Twitter)](https://x.com/jesus_or_drugs)
 ::

@@ -10,6 +10,7 @@
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
+  <LayoutFooter />
 </template>
 
 <script setup lang="ts">

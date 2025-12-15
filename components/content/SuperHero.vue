@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto flex max-w-[980px] flex-col items-center gap-2 py-8 md:py-12 md:pb-8 lg:py-24 lg:pb-20">
+  <section class="mx-auto flex max-w-[980px] flex-col items-center gap-2 py-8 md:py-12 md:pb-8 lg:py-24 lg:pb-20 bg-[url(/hexagon-bg.png)] bg-cover">
     <NuxtLinkLocale
       v-if="announcement"
       :to="announcement.to"
@@ -17,10 +17,10 @@
       <Icon name="lucide:arrow-right" class="ml-1 size-4" />
     </NuxtLinkLocale>
 
-    <h1 class="text-center text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
+    <h1 class="text-center text-3xl font-bold leading-tight tracking-wide md:text-6xl lg:leading-[1.1]">
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h1>
-    <span class="text-muted-foreground max-w-[750px] text-center text-lg sm:text-xl">
+    <span class="text-muted-foreground max-w-[750px] text-center text-lg tracking-wide sm:text-xl">
       <ContentSlot :use="$slots.description" unwrap="p" />
     </span>
     <div class="flex">

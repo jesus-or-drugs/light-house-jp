@@ -19,8 +19,8 @@ export default defineAppConfig({
         dropdownType: 'select',
       },
       logo: {
-        light: '/logo.svg',
-        dark: '/logo-dark.svg',
+        light: '/logo.png',
+        dark: '/logo-dark.png',
       },
       nav: [
         { title: 'Home', to: '/' },
@@ -32,6 +32,9 @@ export default defineAppConfig({
         target: '_blank',
       }],
     },
+    hero: {
+      background: '/hexagon-bg.png',
+    },
     aside: {
       useLevel: true,
       collapse: false,
@@ -41,7 +44,7 @@ export default defineAppConfig({
       showTitle: true,
     },
     footer: {
-      credits: 'Copyright © 2024',
+      credits: 'Copyright © 2025 Light House. All rights reserved.',
       links: [{
         icon: 'lucide:github',
         to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',

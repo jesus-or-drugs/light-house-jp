@@ -1,9 +1,11 @@
 <template>
-  <ContentRenderer
-    :key="page._id"
-    :value="page"
-    :data="(appConfig.shadcnDocs as any)?.data"
-  />
+  <div class="prose prose-neutral dark:prose-invert">
+    <ContentRenderer
+      :key="page._id"
+      :value="page"
+      :data="(appConfig.shadcnDocs as any)?.data"
+    />
+  </div>
 </template>
 
 <script setup lang="ts">

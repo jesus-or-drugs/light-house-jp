@@ -19,7 +19,7 @@ const fmt = (d?: string) => (d ? new Date(d).toISOString().slice(0, 10) : '')
 </script>
 
 <template>
-    <section class="container w-2xl">
+    <section class="topPage container w-2xl my-8 px-4">
         <slot />
     </section>
 </template>

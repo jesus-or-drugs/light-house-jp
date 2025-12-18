@@ -1,0 +1,147 @@
+[
+  {
+    "id": "_scheme",
+    "name_ja": {
+      "ja": "MDA",
+      "en": "MDA"
+    },
+    "name_en": {
+      "ja": "MDA",
+      "en": "MDA"
+    },
+    "aliases": [
+      "Tenamfetamine",
+      "methylenedioxyamphetamine",
+      "メチレンジオキシアンフェタミン",
+      "3,4-メチレンジオキシアンフェタミン",
+      "3,4-Methylenedioxyamphetamine",
+      "Sass",
+      "Sassafras",
+      "Ecstasy",
+      "エクスタシー",
+      "XTC",
+      "罰"
+    ],
+    "categories": [
+      "entactgen",
+      "psychedelic",
+      "stimulant"
+    ],
+    "legal": {
+      "jp": "麻薬"
+    },
+    "identifiers": {
+      "pubchem_cid": "1614",
+      "smiles": "df"
+    },
+    "summary": "低用量ではエンタクトジェンとして高用量では幻覚剤として作用するアンフェタミン誘導体",
+    "refs": []
+  },
+  {
+    "id": "lsd",
+    "name_ja": {
+      "ja": "LSD",
+      "en": "LSD"
+    },
+    "name_en": {
+      "ja": "LSD",
+      "en": "LSD"
+    },
+    "aliases": [
+      "リゼルグ酸ジエチルアミド",
+      "アシッド",
+      "L"
+    ],
+    "categories": [
+      "psychedelic",
+      "stimulant"
+    ],
+    "legal": {
+      "jp": {
+        "key": "InChI Keyを想定"
+      }
+    },
+    "identifiers": {
+      "pubchem_cid": "5761",
+      "smiles": "CCN(CC)C(=O)[C@H]1CN([C@@H]2CC3=CNC4=CC=CC(=C34)C2=C1)C"
+    },
+    "summary": "LSDは最もよく知られ、最も研究されている幻覚剤です。他のすべての幻覚剤と比較される基準となっています。極めて低用量でも効果を発揮し、ブロッターや液体の形で入手するのが最も一般的です。",
+    "refs": []
+  },
+  {
+    "id": "mda",
+    "name_ja": {
+      "ja": "MDA",
+      "en": "MDA"
+    },
+    "name_en": {
+      "ja": "MDA",
+      "en": "MDA"
+    },
+    "aliases": [
+      "Tenamfetamine",
+      "methylenedioxyamphetamine",
+      "メチレンジオキシアンフェタミン",
+      "3,4-メチレンジオキシアンフェタミン",
+      "3,4-Methylenedioxyamphetamine",
+      "Sass",
+      "Sassafras",
+      "Ecstasy",
+      "エクスタシー",
+      "XTC",
+      "罰"
+    ],
+    "categories": [
+      "entactgen",
+      "psychedelic",
+      "stimulant"
+    ],
+    "legal": {
+      "jp": "麻薬"
+    },
+    "identifiers": {
+      "pubchem_cid": "1614",
+      "smiles": "df"
+    },
+    "summary": "低用量ではエンタクトジェンとして高用量では幻覚剤として作用するアンフェタミン誘導体",
+    "refs": []
+  },
+  {
+    "id": "mdma",
+    "name_ja": {
+      "ja": "MDA",
+      "en": "MDA"
+    },
+    "name_en": {
+      "ja": "MDA",
+      "en": "MDA"
+    },
+    "aliases": [
+      "Tenamfetamine",
+      "methylenedioxyamphetamine",
+      "メチレンジオキシアンフェタミン",
+      "3,4-メチレンジオキシアンフェタミン",
+      "3,4-Methylenedioxyamphetamine",
+      "Sass",
+      "Sassafras",
+      "Ecstasy",
+      "エクスタシー",
+      "XTC",
+      "罰"
+    ],
+    "categories": [
+      "entactgen",
+      "psychedelic",
+      "stimulant"
+    ],
+    "legal": {
+      "jp": "麻薬"
+    },
+    "identifiers": {
+      "pubchem_cid": "1614",
+      "smiles": "df"
+    },
+    "summary": "低用量ではエンタクトジェンとして高用量では幻覚剤として作用するアンフェタミン誘導体",
+    "refs": []
+  }
+]

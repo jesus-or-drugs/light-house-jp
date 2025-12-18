@@ -12,5 +12,19 @@ export default defineNuxtConfig({
       },
     ],
   },
+  vite: {
+    resolve: {
+      alias: {
+        "dayjs/dayjs.min.mjs": "dayjs/esm",
+        "dayjs/dayjs.min.js": "dayjs/esm",
+        "dayjs/dayjs.min": "dayjs/esm",
+        dayjs: "dayjs/esm"
+      }
+    },
+    optimizeDeps: {
+      include: ["dayjs"]
+    }
+  },
+
   compatibilityDate: '2024-07-06',
 });

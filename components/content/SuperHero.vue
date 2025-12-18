@@ -4,7 +4,11 @@
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h1>
     <div class="flex">
-      <LayoutSearchBar />
+
+      <!-- <ClientOnly fallback-tag="div" fallback="loading..."> -->
+        <LayoutSearchBar />
+      <!-- </ClientOnly> -->
+       
     </div>
   </section>
 </template>

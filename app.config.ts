@@ -1,7 +1,7 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'Light House',
+      name: 'Truth Light JP',
       description: 'この日本で薬物依存症により苦しむ人をゼロにする',
     },
     theme: {
@@ -23,8 +23,9 @@ export default defineAppConfig({
         dark: '/logo-dark.png',
       },
       nav: [
-        { title: 'Home', to: '/' },
-        { title: 'About Us', to: '/about-us' },
+        { title: 'ホーム', to: '/' },
+        { title: 'RC Factsheet', to: '/substances' },
+        { title: '麻薬・指定薬物一覧', to: '/legal' }
       ],
       links: [{
         icon: 'lucide:github',

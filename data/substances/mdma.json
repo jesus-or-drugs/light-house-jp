@@ -1,50 +1,52 @@
 {
-    "id": "mdma",
-    "name": { "ja": "MDMA", "en": "MDMA" },
-    "IUPAC_name": "1-(1,3-benzodioxol-5-yl)-N-methylpropan-2-amine",
+    "id": "mda",
+    "name": { "ja": "MDA", "en": "MDA" },
+    "iupac_name": "1-(1,3-benzodioxol-5-yl)-N-methylpropan-2-amine",
     "aliases": [
-        "Methylenedioxymethamphemine",
-        "メチレンジオキシメタンフェタミン",
-        "3,4-メチレンジオキシメタンフェタミン",
-        "3,4-Methylenedioxymethamphemine",
+        "Tenamfetamine",
+        "methylenedioxyamphetamine",
+        "メチレンジオキシアンフェタミン",
+        "3,4-メチレンジオキシアンフェタミン",
+        "3,4-Methylenedioxyamphetamine",
+        "Sass",
+        "Sassafras",
         "Ecstasy",
         "エクスタシー",
-        "モーリー",
-        "Molly",
         "XTC",
         "罰"],
-    
-    "pubchem_cid": "1615",
-    "smiles": "CC(CC1=CC2=C(C=C1)OCO2)NC",
-    "categories": ["entactogen", "stimulant"],
-    "legal": {
-    "jp": {
-        "status": "麻薬",
-        "lastReviewed": "2025-12-16"
-    }
+    "identifier": {
+        "pubchem_cid": "1614",
+        "inchi_key": "ZKSRYGGYHFXCAG-UHFFFAOYSA-N",
+        "smiles": "df"
     },
-    "summary": "共感・多幸感を強める合成向精神物質",
-    "warnings": [
-        "高体温・脱水のリスク",
-        "SSRIとの相互作用"
-    ],
-    "effects": [
-        "共感・愛情の増加",
-        "感覚の強化",
-        "エネルギー増加",
-        "社交性の向上"
-    ],
+    "categories": ["entactgen", "psychedelic", "stimulant"],
+    "legal": {
+        "jp": "麻薬"
+    },
+    "summary": "低用量ではエンタクトジェンとして高用量では幻覚剤として作用するアンフェタミン誘導体",
+    "history": "MDAは1912年に合成された。1970年代にアメリカで広く使用された。",
+    "effects": {
+        "effects_positive": [
+            "enpathy",
+            "enhanced_sensory_perception",
+            "energy_increase",
+            "sociality_increase"
+        ],
+        "effects_negative": [
+            "anxiety",
+            "jaw_tension",
+            "nausea",
+            "insomnia"
+        ]},
     "external_resources": {
         "experiences": {
-            "label": "Erowid: MDMA Experience Vault",
-            "url": "https://erowid.org/chemicals/mdma/mdma_experiences.shtml",
-            "note": "※個人の主観的体験談が含まれます"
+            "label": "Erowid: MDA Experience Vault",
+            "url": "https://www.erowid.org/experiences/subs/exp_MDA.shtml"
         },
         "dosage_duration": {
             "label": "TripSit: MDMA",
-            "url": "https://tripsit.me/factsheets/mdma",
-            "note": "※海外のハームリダクション情報です"
+            "url": "https://tripsit.me/factsheets/mda"
         }
-    }
-
+    },
+    "resource": "論文などの信頼できる情報源へのリンクなど"
 }

@@ -24,8 +24,9 @@ export default defineAppConfig({
       },
       nav: [
         { title: 'ホーム', to: '/' },
-        { title: 'RC Factsheet', to: '/substances' },
-        { title: '麻薬・指定薬物一覧', to: '/legal' }
+        { title: 'ファクトシート', to: '/substances' },
+        { title: '規制薬物一覧', to: '/legal' },
+        { title: '依存症相談窓口', to: '/recovery' }
       ],
       links: [{
         icon: 'lucide:github',

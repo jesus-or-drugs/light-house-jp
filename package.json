@@ -3,9 +3,17 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "gen": "node scripts/gen.mjs",
+
+    "predev": "npm run gen",
     "dev": "nuxt dev",
+
+    "prebuild": "npm run gen",
+    "build": "nuxt build",
+
+    "pregenerate": "npm run gen",
     "generate": "nuxt generate",
+
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
